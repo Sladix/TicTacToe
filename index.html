@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Welcome to Glitch!</title>
+    <meta name="description" content="A cool thing made with Glitch">
+    <link id="favicon" rel="icon" href="https://glitch.com/edit/favicon-app.ico" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/public/style.css">
+  </head>
+  <body>
+    <div id="ui">
+      <p id="invite" style="display:none;">You are currently playing alone, invite some friends by sharing this link !</p>
+      <p id="won"></p>
+      <p>Players : <span id="players"></span></p>
+      <p>Your Team : <span id="team"></span></p>
+      <p>Currently Playing : <span id="cp"></span></p>
+      <p>Timer : <span id="timer">20</span>s</p>
+      <p>You selected : <span id="selection"></span></p>
+    </div>
+    <script language="javascript" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.4/socket.io.slim.js"></script>
+    <script language="javascript" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.16/p5.min.js"></script>
+    <script language="javascript" type="text/javascript" src="/public/client.js"></script>
+  </body>
+</html>
