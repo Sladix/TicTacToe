@@ -1,0 +1,28 @@
+/* styles */
+/* called by your view template */
+
+/* You might want to try something fancier: */
+/* less: http://lesscss.org/ */
+
+* {
+  box-sizing: border-box;
+}
+html,body{
+  padding:0;
+  margin:0;
+}
+canvas{
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+}
+
+#ui{
+  position:absolute;
+  z-index:5;
+  top:0;
+  left:0;
+  color:white;
+}
